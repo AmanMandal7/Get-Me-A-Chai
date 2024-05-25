@@ -24,7 +24,7 @@ export default function Home() {
       <div className="line1 h-0.5 opacity-10 bg-[white]"></div>
 
       <div className="w-full h-[55vh] text-[white] flex gap-10 flex-col items-center justify-center">
-        <h1 className="font-bold text-[25px] tracking-[1px]">Your Fans can buy you a Chai</h1>
+        <h2 className="font-bold text-[25px] tracking-[1px]">Your Fans can buy you a Chai</h2>
 
         <div className="items flex items-center justify-center gap-32">
           <div className="item1 flex gap-1 flex-col items-center justify-center">
@@ -50,9 +50,9 @@ export default function Home() {
       <div className="line2 h-0.5 opacity-10 bg-[white]"></div>
 
       <div className="w-full min-h-[60vh] py-10 text-[white] flex gap-5 flex-col items-center justify-center">
-        <h1 className="font-bold text-[25px] tracking-[1px]">Learn more about us</h1>
+        <h2 className="font-bold text-[25px] tracking-[1px]">Learn more about us</h2>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/pBXgoeywweE?si=646D3LTQLYC7_5Xk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <h1 className="text-[15px] text-[#ffffff2b] tracking-[1px]">(This is a random video for demonstration)</h1>
+        <h2 className="text-[15px] text-[#ffffff2b] tracking-[1px]">(This is a random video for demonstration)</h2>
       </div>
     </>
   );
